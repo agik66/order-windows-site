@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Support — Order Windows</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body {
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Display", Helvetica, Arial, sans-serif;
+    max-width: 680px;
+    margin: 60px auto;
+    padding: 0 24px;
+    color: #1d1d1f;
+  }
+  h1 { font-size: 32px; margin-bottom: 8px; }
+  h2 { font-size: 20px; margin-top: 36px; }
+  h3 { font-size: 16px; margin-top: 20px; color: #1d1d1f; }
+  p, li { color: #424245; }
+  code, kbd {
+    background: #f4f4f7;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: "SF Mono", Menlo, monospace;
+    font-size: 14px;
+  }
+  kbd { background: #e8e8ed; box-shadow: 0 1px 0 rgba(0,0,0,0.08); }
+  a { color: #06c; }
+  footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e5e5e7; color: #86868b; font-size: 14px; }
+  footer a { margin-right: 14px; }
+  .faq { background: #f9f9fb; padding: 16px 20px; border-radius: 10px; margin: 14px 0; }
+  .faq strong { display: block; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+<h1>Support</h1>
+<p>Hi! I'm Erik, the maker of Order Windows. Email me anytime: <a href="mailto:michalec.erik@gmail.com">michalec.erik@gmail.com</a></p>
+
+<h2>Quick start</h2>
+<ol>
+  <li>Install from the Mac App Store.</li>
+  <li>On first launch, macOS asks for <strong>Accessibility</strong> permission. Click <em>Open System Settings</em>, then toggle <strong>Order Windows</strong> on.</li>
+  <li>Open any window (TextEdit, Safari, …).</li>
+  <li>Press <kbd>⌃⌥←</kbd> — the window snaps to the left half.</li>
+  <li>Hold <kbd>⌥Q</kbd> — the radial menu appears under your cursor.</li>
+</ol>
+
+<h2>Default shortcuts</h2>
+<table style="border-collapse:collapse; width:100%; margin:14px 0;">
+  <tr><td><kbd>⌃⌥←</kbd></td><td>Left half</td></tr>
+  <tr><td><kbd>⌃⌥→</kbd></td><td>Right half</td></tr>
+  <tr><td><kbd>⌃⌥↑</kbd></td><td>Top half</td></tr>
+  <tr><td><kbd>⌃⌥↓</kbd></td><td>Bottom half</td></tr>
+  <tr><td><kbd>⌃⌥U</kbd> / <kbd>I</kbd> / <kbd>J</kbd> / <kbd>K</kbd></td><td>4 corners</td></tr>
+  <tr><td><kbd>⌃⌥↩</kbd></td><td>Maximize</td></tr>
+  <tr><td><kbd>⌃⌥C</kbd></td><td>Center</td></tr>
+  <tr><td><kbd>⌃⌥D</kbd> / <kbd>F</kbd> / <kbd>G</kbd></td><td>Left / Middle / Right third</td></tr>
+  <tr><td><kbd>⌃⌥E</kbd> / <kbd>T</kbd></td><td>Left / Right two thirds</td></tr>
+  <tr><td><kbd>⌃⌥⌘→</kbd> / <kbd>←</kbd></td><td>Send to next / previous monitor</td></tr>
+  <tr><td><kbd>⌃⌥1</kbd>…<kbd>9</kbd></td><td>3×3 grid cells</td></tr>
+  <tr><td><kbd>⌥Q</kbd> (hold)</td><td>Open radial menu</td></tr>
+</table>
+<p>All shortcuts are rebindable in <strong>Order Windows → Settings → Shortcuts</strong>.</p>
+
+<h2>Troubleshooting</h2>
+
+<div class="faq">
+  <strong>Shortcuts don't move windows.</strong>
+  Open System Settings → Privacy &amp; Security → Accessibility. Make sure <strong>Order Windows</strong> is in the list and toggled ON. If it's off, toggle it on — the app activates within 1 second without restart.
+</div>
+
+<div class="faq">
+  <strong>Some windows don't fit (e.g., Music, Mail).</strong>
+  Some apps have a minimum window size larger than a quarter of your screen. Order Windows can't override that. Try on a larger display or use halves instead of corners.
+</div>
+
+<div class="faq">
+  <strong>App still asks for Accessibility even though I granted it.</strong>
+  After an app update, macOS may treat the new binary as a different app. Remove <strong>Order Windows</strong> from the Accessibility list (− button), then add it back (+ button) and toggle on.
+</div>
+
+<div class="faq">
+  <strong>Top-corner snap on macOS Tahoe goes to native tiling instead.</strong>
+  macOS 26 has built-in window tiling for the top-left/top-right corners. To use Order Windows snap there exclusively, disable native tiling in System Settings → Desktop &amp; Dock → Windows.
+</div>
+
+<h2>Feature request or bug</h2>
+<p>Email me at <a href="mailto:michalec.erik@gmail.com">michalec.erik@gmail.com</a> with:</p>
+<ul>
+  <li>macOS version (Apple menu → About This Mac)</li>
+  <li>Mac model (Apple Silicon required)</li>
+  <li>Steps to reproduce or feature description</li>
+</ul>
+<p>I usually reply within 48 hours.</p>
+
+<footer>
+  <a href="index.html">Home</a>
+  <a href="privacy.html">Privacy Policy</a>
+</footer>
+</body>
+</html>
