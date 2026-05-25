@@ -5,6 +5,8 @@
 <title>Order Windows — The fastest window manager for macOS</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Order Windows — the fastest window manager for macOS. Snap, hotkeys, 3-zone radial menu. Available on the Mac App Store.">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+<link rel="apple-touch-icon" href="icon.png">
 <style>
   :root {
     --bg: #0d1422;
@@ -24,12 +26,9 @@
   header { text-align: center; margin-bottom: 60px; }
   .icon {
     width: 128px; height: 128px;
-    border-radius: 28px;
-    background: linear-gradient(135deg, #2e527a, #14223a);
-    box-shadow: 0 18px 60px rgba(0,0,0,0.5);
     margin: 0 auto 24px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 64px;
+    filter: drop-shadow(0 18px 36px rgba(0,0,0,0.5));
+    display: block;
   }
   h1 {
     font-size: 56px; font-weight: 700;
@@ -82,7 +81,7 @@
 <body>
 <div class="container">
   <header>
-    <div class="icon">▢</div>
+    <img class="icon" src="icon.png" alt="Order Windows icon" width="128" height="128">
     <h1>Order Windows</h1>
     <p class="tagline">The fastest window manager for macOS.</p>
     <div class="btn-row">
